@@ -8,6 +8,6 @@ if((n0<n1)||(n0>n2)||(n1>n2))
 end
 n=n1:n2;
 %x=[zeros(1,(n0-n1)),1,zeros(1,(n2-n0))];
-x=[(n-n0)==0];
+x=(n-n0)==0;
 end
 
